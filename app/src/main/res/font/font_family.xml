@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Light style -->
+    <font android:font="@font/sansation_light"
+        android:fontWeight="200"
+        android:fontStyle="normal" />
+
+    <!-- Light Italic style -->
+    <font android:font="@font/sansation_light_italic"
+        android:fontWeight="200"
+        android:fontStyle="italic" />
+
+    <!-- Regular style -->
+    <font
+        android:font="@font/sansation_regular"
+        android:fontWeight="400"
+        android:fontStyle="normal" />
+
+    <!-- Bold style -->
+    <font
+        android:font="@font/sansation_bold"
+        android:fontWeight="700"
+        android:fontStyle="normal" />
+
+    <!-- Italic style (if available) -->
+    <font
+        android:font="@font/sansation_italic"
+        android:fontWeight="400"
+        android:fontStyle="italic" />
+
+    <!-- Bold Italic style (if available) -->
+    <font
+        android:font="@font/sansation_bold_italic"
+        android:fontWeight="700"
+        android:fontStyle="italic" />
+</font-family>

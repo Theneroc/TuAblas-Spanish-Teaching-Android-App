@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:background="#674F93"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Match the correct words!" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Match the correct English words on the left to the correct Spanish words on the right" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/leftSideListView"
+            style="@style/listView"
+            android:textAlignment="center" />
+
+        <ListView
+            android:id="@+id/rightSideListView"
+            style="@style/listView"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextSetButton"
+        style="@style/button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#2D9ED2"
+        android:text="Next Set"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        style="@style/button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2D9ED2"
+        android:text="Reset"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/hoemButton"
+        style="@style/button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#166F98"
+        android:text="Main Menu"
+        android:textSize="22sp" />
+
+</LinearLayout>
